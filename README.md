@@ -16,4 +16,4 @@
 | 3020106503 | Felipe Elias Ribeiro de Toledo  | TADS  | 5A  |
 
 ## Descrição do Projeto
-Esse aplicativo foi desenvolvido com o propósito de realizr cálculos de automia, ele irá auxilar o usuário antes de uma viagem ou até mesmo para saber seu gasto de um ponto até o outro!
+Esse aplicativo foi desenvolvido com o propósito de realizar cálculos de autonomia, ele irá auxiliar o usuário antes de uma viagem ou até mesmo para saber seu gasto de um ponto até o outro!
