@@ -10,7 +10,7 @@ export default StyleSheet.create({
 
     viewBack: {
         flexDirection: "row",
-        marginRight: 40
+        marginLeft: -40
     },
 
     iconBack: {
@@ -37,14 +37,15 @@ export default StyleSheet.create({
         fontSize: 25,
         color: '#000',
         textAlign: 'center',
-        marginTop: 140
+        marginTop: 50,
+        paddingBottom: 30
 
     },
 
     results: {
         color: '#000',
         fontSize: 40,
-        marginTop: 30,
+        marginTop: 50,
         marginBottom: 10,
     },
 
@@ -57,7 +58,7 @@ export default StyleSheet.create({
         width: 415,
         borderWidth: 1,
         borderColor: '#000',
-        marginTop: 135,
+        marginTop: 175,
         borderTopEndRadius: 25,
         borderTopStartRadius: 25,
     },

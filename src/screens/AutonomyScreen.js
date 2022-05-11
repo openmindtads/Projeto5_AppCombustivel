@@ -40,14 +40,14 @@ const AutonomyScreen = ({route, navigation}) => {
 
     return(
         <SafeAreaView style={Style2.container}>
-            
+            <ScrollView>
             <View style={Style2.viewBack}>
             <TouchableOpacity onPress={() => goBack()}>
             <Icon name="arrow-left" size={30} color="black" style={Style2.iconBack}/>
             </TouchableOpacity>
             <Text style={Style2.title}>Calcule seu gasto!</Text>
             </View>
-            <Icon name="car" size ={60} color= "black"/>
+            <Icon name="car" size ={60} color= "black" style={Style2.iconCar}/>
 
             <Text style={Style2.hint}>Valor do combustível</Text>
             <TextInput 
@@ -86,6 +86,7 @@ const AutonomyScreen = ({route, navigation}) => {
             onPress={calculaAutonomia}> 
                 <Text style={Style2.textButton}>Calcular</Text>
             </TouchableOpacity>
+            </ScrollView>
         </SafeAreaView>
     ); 
 };

@@ -20,20 +20,19 @@ export default StyleSheet.create({
 
     description: {
         lineHeight: 30,
-        fontSize: 18,
+        fontSize: 20,
         color: '#000',
         paddingLeft: 30,
-        marginTop: 40,
+        marginTop: 60,
     },
 
     icon2: {
 
-        marginLeft: 300
+        marginLeft: 300,
     },
 
     goButton: {
         alignItems: 'center',
-        // backgroundColor: '#ffd6ff',
         backgroundColor: '#ebebeb',
         alignSelf: 'center',
         paddingTop: 25,

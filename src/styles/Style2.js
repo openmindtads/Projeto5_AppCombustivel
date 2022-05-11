@@ -9,7 +9,8 @@ export default StyleSheet.create({
     },
 
     viewBack: {
-        flexDirection: "row"
+        flexDirection: "row",
+        marginLeft: 40
     },
 
     iconBack: {
@@ -25,13 +26,18 @@ export default StyleSheet.create({
         marginTop: 10
     },
 
+    iconCar: {
+        textAlign: 'center'
+    },
+
     hint: {
         lineHeight: 30,
         fontSize: 15,
         color: '#000',
         textAlign: 'center',
-        marginTop: 80,
-        marginRight: 45
+        marginTop: 50,
+        marginRight: 45,
+        paddingBottom: 10
     },
 
     inputText1: {
@@ -52,7 +58,8 @@ export default StyleSheet.create({
         color: '#000',
         textAlign: 'center',
         marginTop: 5,
-        marginRight: 120
+        marginRight: 120,
+        paddingBottom: 10
     },
 
     inputText2: {
@@ -73,7 +80,8 @@ export default StyleSheet.create({
         color: '#000',
         textAlign: 'center',
         marginTop: 5,
-        marginRight: 110
+        marginRight: 110,
+        paddingBottom: 10
     },
 
     inputText3: {

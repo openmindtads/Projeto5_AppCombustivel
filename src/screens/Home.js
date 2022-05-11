@@ -32,13 +32,15 @@ const Home = ({route, navigation}) => {
             <Text style={Style1.description}>
                 • Calcule seu gasto de combustível!
                 {'\n'}
+                {'\n'}
                 • Te ajuda antes da viagem!
+                {'\n'}
                 {'\n'}
                 • Facíl de utilizar!
             </Text>
 
              {/* -------------------------------------------------- */}
-            <View style={{marginTop: 190}}>
+            <View style={{marginTop: 108}}>
                 <Icon name="caret-down" size ={70} color= "black" sstyle={Style1.icon2}/>
             </View>
              {/* -------------------------------------------------- */}
