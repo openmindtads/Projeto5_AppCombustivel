@@ -28,7 +28,7 @@ const Results = ({route, navigation}) => {
             <Text style={Style3.text}> • Preço estimado:</Text>
             <Icon name="caret-down" size ={60} color= "black"/>
             <Icon name="money" size ={40} color= "black"/>
-            <Text style={Style3.results}>R$ - {total}</Text>
+            <Text style={Style3.results}>R$ {total}</Text>
 
             <TouchableOpacity style={Style3.buttonCalc}
                 onPress={goBack}> 

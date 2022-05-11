@@ -38,7 +38,7 @@ export default StyleSheet.create({
         alignSelf: 'center',
         paddingTop: 25,
         height: 50,
-        width: 370,
+        width: 415,
         borderWidth: 1,
         borderColor: '#000',
         marginTop: 0,

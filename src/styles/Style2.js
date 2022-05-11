@@ -30,7 +30,7 @@ export default StyleSheet.create({
         fontSize: 15,
         color: '#000',
         textAlign: 'center',
-        marginTop: 30,
+        marginTop: 80,
         marginRight: 45
     },
 
@@ -93,11 +93,11 @@ export default StyleSheet.create({
         backgroundColor: '#ebebeb',
         alignSelf: 'center',
         paddingTop: 25,
-        height: 100,
-        width: 370,
+        height: 50,
+        width: 415,
         borderWidth: 1,
         borderColor: '#000',
-        marginTop: 70,
+        marginTop: 110,
         borderTopEndRadius: 25,
         borderTopStartRadius: 25,
     },

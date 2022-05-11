@@ -38,7 +38,7 @@ const Home = ({route, navigation}) => {
             </Text>
 
              {/* -------------------------------------------------- */}
-            <View style={{marginTop: 100}}>
+            <View style={{marginTop: 190}}>
                 <Icon name="caret-down" size ={70} color= "black" sstyle={Style1.icon2}/>
             </View>
              {/* -------------------------------------------------- */}
